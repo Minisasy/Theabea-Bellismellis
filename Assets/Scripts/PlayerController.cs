@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpForce = 5f;
     [SerializeField] float maxSpeed = 5f;
     [SerializeField] GameObject playerObject;
-    private bool grounded;
+    private bool grounded = false;
     private Vector3 forceDirection = Vector3.zero;
 
     [SerializeField] Camera playerCamera;
@@ -115,19 +115,24 @@ public class PlayerController : MonoBehaviour
     private void DoJump(InputAction.CallbackContext obj)
     {
         Debug.Log("jump");
-        if (IsGrounded())
+        if (grounded == true)
         {
             forceDirection += Vector3.up * jumpForce;
             animator.SetTrigger("Jump");
         }
     }
-    private bool IsGrounded()
+
+    private void OnTriggerEnter(Collider other)
     {
-            Ray ray = new Ray(this.transform.position + Vector3.up * 0.73f, Vector3.down);
-            if (Physics.Raycast(ray, out RaycastHit hit, 0.3f))
-                return true;
-            else
-                return false;
+        if(other.transform.tag == "Ground")
+        {
+            grounded = true;
+            Debug.Log("true");
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        grounded = false;
     }
     public void PlayerRespawn(Vector3 respawnPoint)
     {
