@@ -57,8 +57,8 @@ MonoBehaviour:
     pitch: 0.9
     Loop: 0
     source: {fileID: 0}
-  - name: Fireworksound
-    clip: {fileID: 8300000, guid: 71a6a57c31cbe764ea6daca68a8ff999, type: 3}
+  - name: Firework
+    clip: {fileID: 8300000, guid: 4080ee6c6174a314090361a752c69f7c, type: 3}
     volume: 0.05
     pitch: 0.9
     Loop: 1
