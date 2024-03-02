@@ -190,11 +190,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1 &41285707 stripped
@@ -222,12 +217,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2, z: 2.0000005}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!4 &43231317 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6535300761516989436, guid: b0eed0e51be8cdb40858474d578bb89c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1004802113}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &58259449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
@@ -320,11 +309,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -475,11 +459,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -745,11 +724,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamYellow
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 64a090cce67d2a245b9ee36527da2203,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a090cce67d2a245b9ee36527da2203, type: 3}
 --- !u!1 &232254453 stripped
@@ -844,11 +818,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (18)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &236668026
@@ -917,11 +886,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -1094,19 +1058,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
---- !u!198 &292323240 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 9220208999800610398, guid: 9bce461944a611449b8765e13ab084d2,
-    type: 3}
-  m_PrefabInstance: {fileID: 9220209000045732342}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &292731775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1173,11 +1126,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -1309,11 +1257,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
@@ -1453,11 +1396,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &350413942
@@ -1526,11 +1464,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -1670,11 +1603,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (12)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &386187094
@@ -1743,11 +1671,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
@@ -1867,11 +1790,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileLarge_teamBlue (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: dfbf909d133de7a4d9dd94e029b5a99f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfbf909d133de7a4d9dd94e029b5a99f, type: 3}
@@ -2165,11 +2083,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &456629330
@@ -2238,11 +2151,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -2331,17 +2239,17 @@ PrefabInstance:
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00000041533764
+      value: 0.00000047865706
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000010963574
+      value: -0.0000013914319
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000017812833
+      value: -0.0000022606994
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2351,22 +2259,22 @@ PrefabInstance:
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.018195461
+      value: -0.018195406
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000745058
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000001117587
+      value: 0.000000014901161
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5866644
+      value: -3.4224458
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2376,42 +2284,42 @@ PrefabInstance:
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.7864075
+      value: 4.9281716
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.1283703
+      value: 0.28756303
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0363394
+      value: 0.08140402
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.95358837
+      value: 0.9182141
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.26994413
+      value: -0.25993028
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000008306753
+      value: 0.0000009573141
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000021927149
+      value: -0.0000027828637
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000035625667
+      value: -0.0000045213988
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2421,32 +2329,32 @@ PrefabInstance:
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018135527
+      value: 0.01813552
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000022351742
+      value: -0.000000059604645
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000022351742
+      value: 0.000000037252903
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00000041533764
+      value: 0.00000047865706
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000010963574
+      value: -0.0000013914319
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0000017812833
+      value: -0.0000022606994
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2456,17 +2364,17 @@ PrefabInstance:
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0000000069849184
+      value: 0.0000000074505797
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000372529
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000029802319
+      value: 0.0000000372529
       objectReference: {fileID: 0}
     - target: {fileID: 3285505940506868369, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2521,36 +2429,6 @@ PrefabInstance:
     - target: {fileID: 3285505940506868369, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4440259842968748537, guid: a2d87931301120e43a815950a85fea78,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4440259842968748537, guid: a2d87931301120e43a815950a85fea78,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.14321542
-      objectReference: {fileID: 0}
-    - target: {fileID: 4440259842968748537, guid: a2d87931301120e43a815950a85fea78,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4440259842968748537, guid: a2d87931301120e43a815950a85fea78,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4440259842968748537, guid: a2d87931301120e43a815950a85fea78,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -1.243363
-      objectReference: {fileID: 0}
-    - target: {fileID: 4440259842968748537, guid: a2d87931301120e43a815950a85fea78,
-        type: 3}
-      propertyPath: m_Center.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7483876805078683540, guid: a2d87931301120e43a815950a85fea78,
@@ -2721,11 +2599,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &540467750
@@ -2794,11 +2667,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -3063,11 +2931,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1001 &585916348
@@ -3136,11 +2999,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamBlue
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
@@ -3211,11 +3069,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &622558594
@@ -3284,11 +3137,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamBlue (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
@@ -3409,11 +3257,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &671009493
@@ -3482,11 +3325,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -3677,11 +3515,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (11)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &747969788
@@ -3750,11 +3583,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileLarge_teamRed (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d36021b766e4aa344bd7cf3c809ff748,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d36021b766e4aa344bd7cf3c809ff748, type: 3}
@@ -3969,11 +3797,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &832991813
@@ -4042,11 +3865,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileLarge_teamBlue
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: dfbf909d133de7a4d9dd94e029b5a99f,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfbf909d133de7a4d9dd94e029b5a99f, type: 3}
@@ -4143,11 +3961,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1 &893889168 stripped
@@ -4242,11 +4055,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamRed
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d270c6ae4d5fb544683bd2f5c4ac9738, type: 3}
 --- !u!1001 &952977383
@@ -4316,11 +4124,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &963211358
@@ -4389,11 +4192,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamBlue (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
@@ -4565,11 +4363,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoalBlue
       objectReference: {fileID: 0}
-    - target: {fileID: 8277464669429666654, guid: b0eed0e51be8cdb40858474d578bb89c,
-        type: 3}
-      propertyPath: ps
-      value: 
-      objectReference: {fileID: 1616726591}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0eed0e51be8cdb40858474d578bb89c, type: 3}
 --- !u!1001 &1005128441
@@ -4639,11 +4432,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &1016537181
@@ -4712,11 +4500,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -5006,11 +4789,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamRed (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d270c6ae4d5fb544683bd2f5c4ac9738, type: 3}
 --- !u!1001 &1131623272
@@ -5079,11 +4857,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -5235,11 +5008,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamYellow (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 64a090cce67d2a245b9ee36527da2203,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64a090cce67d2a245b9ee36527da2203, type: 3}
 --- !u!1001 &1197569429
@@ -5378,11 +5146,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
 --- !u!1001 &1203357364
@@ -5452,11 +5215,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3265649609616893291, guid: f86900efb68582b4088223bf6c077d90,
-        type: 3}
-      propertyPath: ps
-      value: 
-      objectReference: {fileID: 292323240}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f86900efb68582b4088223bf6c077d90, type: 3}
 --- !u!1 &1205878224 stripped
@@ -5551,11 +5309,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1001 &1241796874
@@ -5624,11 +5377,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -5823,11 +5571,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1 &1266988915 stripped
@@ -5922,11 +5665,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (21)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &1339593483
@@ -5995,11 +5733,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -6070,11 +5803,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1001 &1348433392
@@ -6143,11 +5871,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamBlue (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
@@ -6218,11 +5941,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (14)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1001 &1367783914
@@ -6291,11 +6009,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamRed (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d270c6ae4d5fb544683bd2f5c4ac9738, type: 3}
@@ -6366,11 +6079,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (15)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &1394114433
@@ -6440,11 +6148,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
 --- !u!1001 &1400142058
@@ -6513,11 +6216,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamYellow (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
@@ -6594,70 +6292,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
---- !u!4 &1415593366 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4749170167156476663, guid: f86900efb68582b4088223bf6c077d90,
-    type: 3}
-  m_PrefabInstance: {fileID: 1203357364}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1416924341
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1416924343}
-  - component: {fileID: 1416924342}
-  m_Layer: 0
-  m_Name: Audiomanager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1416924342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416924341}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6627faff2a3d7c040867b360337191dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Theme
-    clip: {fileID: 8300000, guid: 71a6a57c31cbe764ea6daca68a8ff999, type: 3}
-    volume: 0.05
-    pitch: 0.9
-    Loop: 1
-    source: {fileID: 0}
---- !u!4 &1416924343
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416924341}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1423579441 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
@@ -6683,6 +6319,75 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2, z: 2.0000005}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!1001 &1437037058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936705, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2969501307497936707, guid: 7581c22f19df88946a90165f78020eec,
+        type: 3}
+      propertyPath: m_Name
+      value: Audiomanager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7581c22f19df88946a90165f78020eec, type: 3}
 --- !u!1 &1444732325 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
@@ -6775,11 +6480,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
 --- !u!1001 &1468142335
@@ -6849,11 +6549,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &1477330271
@@ -6922,11 +6617,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -7190,11 +6880,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (19)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &1496727041
@@ -7263,11 +6948,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamRed (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d270c6ae4d5fb544683bd2f5c4ac9738, type: 3}
@@ -7558,11 +7238,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (13)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1 &1571715485
@@ -7576,7 +7251,7 @@ GameObject:
   - component: {fileID: 1571715486}
   m_Layer: 0
   m_Name: Blue
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7688,11 +7363,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1 &1581236414
@@ -7767,12 +7437,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000005, y: 2, z: 2.0000005}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!198 &1616726591 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4256314398538048773, guid: 6044b82de1a237348afc0955b2926ef6,
-    type: 3}
-  m_PrefabInstance: {fileID: 4256314400150974266}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1645451499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7839,11 +7503,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamBlue (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
@@ -8000,11 +7659,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &1704462474
@@ -8073,11 +7727,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
@@ -8190,17 +7839,17 @@ PrefabInstance:
     - target: {fileID: 5903757203272398739, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -3.4924594e-10
+      value: -0.0000000600994
       objectReference: {fileID: 0}
     - target: {fileID: 5903757203272398739, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000050291412
+      value: 0.000000111758695
       objectReference: {fileID: 0}
     - target: {fileID: 5903757203272398739, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000004470348
+      value: -0.000000048428767
       objectReference: {fileID: 0}
     - target: {fileID: 5903757203627533873, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
@@ -8220,27 +7869,27 @@ PrefabInstance:
     - target: {fileID: 5903757203627533873, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9998356
+      value: 0.99983555
       objectReference: {fileID: 0}
     - target: {fileID: 5903757203627533873, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018135557
+      value: 0.018135464
       objectReference: {fileID: 0}
     - target: {fileID: 5903757203627533873, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000080093734
+      value: 0.000000106170745
       objectReference: {fileID: 0}
     - target: {fileID: 5903757203627533873, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000051688396
+      value: -0.00000005122273
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.33595803
+      value: 0.335959
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
@@ -8250,17 +7899,17 @@ PrefabInstance:
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.990587
+      value: 5.9905868
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.02694866
+      value: 0.026948601
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.007628694
+      value: 0.0076286644
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
@@ -8270,17 +7919,17 @@ PrefabInstance:
     - target: {fileID: 5903757204328179478, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.2722723
+      value: 0.27227235
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.00000010679872
+      value: 0.000000106798474
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000009981893
+      value: -0.0000009981895
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
@@ -8295,17 +7944,17 @@ PrefabInstance:
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.018195432
+      value: -0.01819549
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000024214383
+      value: 0.00000010058282
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000135041756
+      value: -0.00000008381901
       objectReference: {fileID: 0}
     - target: {fileID: 6693205223058946446, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
@@ -8431,11 +8080,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1 &1749224865 stripped
@@ -8556,11 +8200,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &1787877171
@@ -8630,11 +8269,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (8)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1001 &1790457091
@@ -8703,11 +8337,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -8942,11 +8571,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamYellow (7)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 106542c12128d1b4e8e552a838bb265d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 106542c12128d1b4e8e552a838bb265d, type: 3}
 --- !u!1 &1827947413 stripped
@@ -9160,11 +8784,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (9)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1001 &1863074938
@@ -9233,11 +8852,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileHigh_teamRed (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
@@ -9333,11 +8947,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (10)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1001 &1921849353
@@ -9406,11 +9015,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamRed (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d270c6ae4d5fb544683bd2f5c4ac9738, type: 3}
@@ -9481,11 +9085,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamRed (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 8875d8bea6328d641974c9fd1d71b783,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8875d8bea6328d641974c9fd1d71b783, type: 3}
 --- !u!1001 &1938561711
@@ -9555,11 +9154,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileHigh_teamBlue (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1cff9719793dab744b858e6b9cf2294e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cff9719793dab744b858e6b9cf2294e, type: 3}
 --- !u!1 &1942957620
@@ -9573,7 +9167,7 @@ GameObject:
   - component: {fileID: 1942957621}
   m_Layer: 0
   m_Name: Red
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9792,11 +9386,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileLarge_teamRed
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d36021b766e4aa344bd7cf3c809ff748,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d36021b766e4aa344bd7cf3c809ff748, type: 3}
@@ -10018,11 +9607,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamBlue
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: a502d187d86a5994784651ace1daab37,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a502d187d86a5994784651ace1daab37, type: 3}
 --- !u!1001 &2097728928
@@ -10091,11 +9675,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: tileSlopeLowHigh_teamRed (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: d270c6ae4d5fb544683bd2f5c4ac9738,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d270c6ae4d5fb544683bd2f5c4ac9738, type: 3}
@@ -10193,141 +9772,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d48bf40ac01b5a428c66626e4b4b9fd, type: 3}
---- !u!1001 &4256314400150974266
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 43231317}
-    m_Modifications:
-    - target: {fileID: 4256314398538048775, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_Name
-      value: ConfettiBlue
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.3400002
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.31000045
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.579228
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.40557978
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.40557978
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.579228
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -70
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4256314398538048890, guid: 6044b82de1a237348afc0955b2926ef6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6044b82de1a237348afc0955b2926ef6, type: 3}
---- !u!1001 &9220209000045732342
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1415593366}
-    m_Modifications:
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.3400002
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.31000045
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.4055798
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.579228
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.579228
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.4055798
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -110
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610384, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 9220208999800610387, guid: 9bce461944a611449b8765e13ab084d2,
-        type: 3}
-      propertyPath: m_Name
-      value: ConfettiRed
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9bce461944a611449b8765e13ab084d2, type: 3}
