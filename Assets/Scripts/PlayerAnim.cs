@@ -16,5 +16,14 @@ public class PlayerAnim : MonoBehaviour
     private void Update()
     {
         animator.SetFloat("Speed", rb.velocity.magnitude / maxSpeed);
+
+        if (animator.GetFloat("Speed") > 0)
+        {
+            //run audio
+        }
+        else
+        {
+            
+        }
     }
 }

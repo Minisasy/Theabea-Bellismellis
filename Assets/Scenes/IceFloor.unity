@@ -452,7 +452,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 30, y: 1, z: 30}
+  m_Size: {x: 50, y: 1, z: 50}
   m_Center: {x: 0, y: 0, z: -6}
 --- !u!4 &53968663
 Transform:
@@ -794,6 +794,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -1170,6 +1175,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -1394,6 +1404,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -1628,6 +1643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -1702,6 +1722,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -2086,6 +2111,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -2310,6 +2340,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -2874,12 +2909,12 @@ PrefabInstance:
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000023463372
+      value: -0.00000023463303
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000009921642
+      value: -0.0000009921644
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2894,17 +2929,17 @@ PrefabInstance:
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.018195404
+      value: -0.018195406
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000059604638
+      value: -0.000000029802322
       objectReference: {fileID: 0}
     - target: {fileID: 2347826121664183986, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000014901159
+      value: 0.000000014901161
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590788, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2924,37 +2959,37 @@ PrefabInstance:
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.73809195
+      value: 0.738091
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.63715017
+      value: -0.6371503
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.18036605
+      value: -0.18036607
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7210058
+      value: 0.7210057
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122169590793, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.20410407
+      value: -0.20410405
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000046926743
+      value: -0.00000046926607
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000019843285
+      value: -0.0000019843287
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -2964,32 +2999,32 @@ PrefabInstance:
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9998356
+      value: 0.99983555
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.018135546
+      value: 0.018135523
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000059604638
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2347826122738115886, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000014901159
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00000023463372
+      value: -0.00000023463303
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000009921642
+      value: -0.0000009921644
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -3004,17 +3039,17 @@ PrefabInstance:
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000029802319
+      value: -0.0000000372529
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000008940696
+      value: 0.000000029802319
       objectReference: {fileID: 0}
     - target: {fileID: 2347826123261031564, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000029802319
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3285505940506868369, guid: a2d87931301120e43a815950a85fea78,
         type: 3}
@@ -3534,6 +3569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -3834,6 +3874,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -4059,6 +4104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -4133,6 +4183,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -4283,6 +4338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -4509,6 +4569,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -4584,6 +4649,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -4658,6 +4728,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -4809,6 +4884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -4958,6 +5038,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -5417,6 +5502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -5491,6 +5581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -5867,6 +5962,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -6016,6 +6116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -6317,6 +6422,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -6392,6 +6502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -6466,6 +6581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -7292,6 +7412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -7366,6 +7491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -7592,6 +7722,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -7667,6 +7802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -7741,6 +7881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -8267,6 +8412,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -8341,6 +8491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -8417,6 +8572,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -8492,6 +8652,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -8566,6 +8731,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -9015,6 +9185,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -9089,6 +9264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -9240,6 +9420,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -9389,6 +9574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -9690,6 +9880,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -9839,6 +10034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -10064,6 +10264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -10333,17 +10538,17 @@ PrefabInstance:
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.0000001008591
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.0000009983589
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.0000016220624
       objectReference: {fileID: 0}
     - target: {fileID: 5903757204699381165, guid: 8d91100536f73814d8c8c4552063f8aa,
         type: 3}
@@ -10935,6 +11140,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -11159,6 +11369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -11535,6 +11750,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -11609,6 +11829,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -11685,6 +11910,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -11759,6 +11989,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -12244,6 +12479,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -12318,6 +12558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -12469,6 +12714,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowShakePlatform (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
       propertyPath: m_RootOrder
@@ -12543,6 +12793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
@@ -12843,6 +13098,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: YellowShakePlatform (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646098684635402549, guid: ea7c0077b06e7224db280493050853c8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3455109837847923599, guid: ea7c0077b06e7224db280493050853c8,
         type: 3}
