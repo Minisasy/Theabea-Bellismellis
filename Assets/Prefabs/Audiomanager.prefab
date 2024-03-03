@@ -59,7 +59,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Firework
     clip: {fileID: 8300000, guid: 4080ee6c6174a314090361a752c69f7c, type: 3}
-    volume: 0.05
+    volume: 0.159
     pitch: 0.9
     Loop: 1
     source: {fileID: 0}
