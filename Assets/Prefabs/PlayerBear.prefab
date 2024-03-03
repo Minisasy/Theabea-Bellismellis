@@ -318,8 +318,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826121664183980}
-  m_LocalRotation: {x: -0.018195461, y: -0.0000000745058, z: 0.00000001117587, w: 0.9998345}
-  m_LocalPosition: {x: 0.00000041533764, y: -0.0000010963574, z: -0.0000017812833}
+  m_LocalRotation: {x: -0.018195456, y: -0.00000012665986, z: 0.000000014901159, w: 0.9998345}
+  m_LocalPosition: {x: 0.00000043080155, y: -0.0000010947169, z: -0.0000017786177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -401,8 +401,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826122169590788}
-  m_LocalRotation: {x: 0.0363394, y: 0.95358837, z: -0.26994413, w: 0.1283703}
-  m_LocalPosition: {x: -1.5866644, y: 4, z: 5.7864075}
+  m_LocalRotation: {x: 0.03534056, y: 0.95405674, z: -0.27007678, w: 0.124841794}
+  m_LocalPosition: {x: -1.5438111, y: 4, z: 5.797988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -928,9 +928,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826122738115880}
-  m_LocalRotation: {x: 0.018135527, y: -0.000000022351742, z: -0.000000022351742,
-    w: 0.9998356}
-  m_LocalPosition: {x: 0.0000008306753, y: -0.0000021927149, z: -0.0000035625667}
+  m_LocalRotation: {x: 0.018135423, y: -0.00000022351739, z: 0.00000007078051, w: 0.9998356}
+  m_LocalPosition: {x: 0.00000043080155, y: -0.0000010947169, z: -0.0000017786177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1185,9 +1184,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826123261031566}
-  m_LocalRotation: {x: -0.0000000069849184, y: -0.0000000372529, z: -0.000000029802319,
+  m_LocalRotation: {x: -0.00000009313224, y: -0.00000019371507, z: 0.000000104308114,
     w: 1}
-  m_LocalPosition: {x: 0.00000041533764, y: -0.0000010963574, z: -0.0000017812833}
+  m_LocalPosition: {x: 0.00000043080155, y: -0.0000010947169, z: -0.0000017786177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1678,8 +1677,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0.17254902, b: 0.3764706, a: 1}
-      key1: {r: 1, g: 0.17254902, b: 0.3764706, a: 1}
+      key0: {r: 0.58431375, g: 0.34901962, b: 0.25882354, a: 1}
+      key1: {r: 0.58431375, g: 0.34901962, b: 0.25882354, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
