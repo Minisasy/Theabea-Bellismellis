@@ -63,7 +63,7 @@ MonoBehaviour:
     pitch: 0.9
     Loop: 1
     source: {fileID: 0}
-  - name: ScoreSound
+  - name: Score
     clip: {fileID: 8300000, guid: 03cff3c3a25df4440830a5bb4f9c1077, type: 3}
     volume: 0.266
     pitch: 0.9
