@@ -10,6 +10,8 @@ public class TriggerWin : MonoBehaviour
     [SerializeField] ParticleSystem psRed;
     [SerializeField] ParticleSystem psBlue;
 
+    int point = 1;
+
     float time = 1.5f;
 
     private void OnTriggerEnter(Collider other)
@@ -18,12 +20,14 @@ public class TriggerWin : MonoBehaviour
         {
             if (other.tag == "Blue" && this.gameObject.tag != "Death")
             {
-                FindObjectOfType<GameController>().RedTotalScore(1);
+                FindObjectOfType<GameController>().RedTotalScore(point);
+                point = 0;
                 StartCoroutine(ChangeScenes());
             }
             if (other.tag == "Red" && this.gameObject.tag != "Death")
             {
-                FindObjectOfType<GameController>().BlueTotalScore(1);
+                FindObjectOfType<GameController>().BlueTotalScore(point);
+                point = 0;
                 StartCoroutine(ChangeScenes());
             }
         }
@@ -34,13 +38,15 @@ public class TriggerWin : MonoBehaviour
             if (other.tag == "Blue" && this.gameObject.tag != "Death")
             {
                 psBlue.Play();
-                FindObjectOfType<GameController>().BlueTotalScore(1);
+                FindObjectOfType<GameController>().BlueTotalScore(point);
+                point = 0;
                 StartCoroutine(ChangeScenes());
             }
             if (other.tag == "Red" && this.gameObject.tag != "Death")
             {
                 psRed.Play();
-                FindObjectOfType<GameController>().RedTotalScore(1);
+                FindObjectOfType<GameController>().RedTotalScore(point);
+                point = 0;
                 StartCoroutine(ChangeScenes());
 
             }
