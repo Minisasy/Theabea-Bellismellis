@@ -9,6 +9,7 @@ TagManager:
   - Blue
   - Ground
   - Death
+  - Star
   layers:
   - Default
   - TransparentFX
