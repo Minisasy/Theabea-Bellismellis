@@ -14,6 +14,10 @@ public class GameController : MonoBehaviour
     [SerializeField] TextMeshProUGUI redTotalScoreText = null;
     [SerializeField] TextMeshProUGUI blueTotalScoreText = null;
 
+    //Character
+    public int controllerSelected;
+    public int keyboardSelected;
+
     private void Awake()
     {
         int numGameSessions = FindObjectsOfType<GameController>().Length;
@@ -84,5 +88,14 @@ public class GameController : MonoBehaviour
     public void ResetGameSession()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void SaveControllerSelection(int selectecChar)
+    {
+        controllerSelected = selectecChar;
+    }
+    public void SaveKeyboardSelection(int selectedChar)
+    {
+        keyboardSelected = selectedChar;
     }
 }

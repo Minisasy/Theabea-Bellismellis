@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
     private int currentChar = 0;
+
+    [SerializeField] bool controller;
 
     [SerializeField] GameObject duck1;
     [SerializeField] GameObject duck2;
@@ -21,7 +24,7 @@ public class CharacterSelection : MonoBehaviour
     [SerializeField] GameObject dog3;
     [SerializeField] GameObject dog4;
 
-    private void SelectChar(int index)
+    public void SelectChar(int index)
     {
         if (index == 0)
         {
@@ -80,5 +83,44 @@ public class CharacterSelection : MonoBehaviour
     public void ChangeCharacter(int change)
     {
         currentChar += change;
+        if (currentChar < 0)
+        {
+            currentChar = 2;
+            SelectChar(currentChar);
+        }
+        if (currentChar > 2)
+        {
+            currentChar = 0;
+            SelectChar(currentChar);
+        }
+        SelectChar(currentChar);
+    }
+
+    public void CharacterSelect()
+    {
+        if (controller == true)
+        {
+            FindObjectOfType<GameController>().SaveControllerSelection(currentChar);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (controller == false)
+        {
+            FindObjectOfType<GameController>().SaveKeyboardSelection(currentChar);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
+    public void StartGameChar()
+    {
+        if (controller == true)
+        {
+            int charSelect = FindObjectOfType<GameController>().controllerSelected;
+            SelectChar(charSelect);
+        }
+        if(controller == false)
+        {
+            int charSelect = FindObjectOfType<GameController>().keyboardSelected;
+            SelectChar(charSelect);
+        }
     }
 }
