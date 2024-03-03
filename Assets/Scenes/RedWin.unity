@@ -11311,8 +11311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 266}
-  m_SizeDelta: {x: 700, y: 50}
+  m_AnchoredPosition: {x: -3, y: 266}
+  m_SizeDelta: {x: 750.8462, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1562672390
 MonoBehaviour:
@@ -11334,7 +11334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bear Win
+  m_text: Bear Win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09a4e2a243bfc224e961302c418d6edb, type: 2}
   m_sharedMaterial: {fileID: -2545644249459878784, guid: 09a4e2a243bfc224e961302c418d6edb,
@@ -11344,8 +11344,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291540735
-  m_fontColor: {r: 1, g: 0.7122642, b: 0.794282, a: 1}
+    rgba: 4284308991
+  m_fontColor: {r: 1, g: 0.36320752, b: 0.36320752, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11368,7 +11368,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 19
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -11398,7 +11398,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -21.405426, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
