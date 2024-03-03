@@ -19,6 +19,7 @@ public class Goal : MonoBehaviour
             if (blue == true)
             {
                 ps.Play();
+                FindObjectOfType<AudioManager>().Play("Score");
                 FindObjectOfType<GameController>().RedTotalScore(points);
                 points = 0;
                 StartCoroutine(ChangeScenes());
@@ -26,6 +27,7 @@ public class Goal : MonoBehaviour
             if (red == true)
             {
                 ps.Play();
+                FindObjectOfType<AudioManager>().Play("Score");
                 FindObjectOfType<GameController>().BlueTotalScore(points);
                 points = 0;
                 StartCoroutine(ChangeScenes());
