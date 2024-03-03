@@ -1043,7 +1043,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -3.000061, y: 265.99997}
-  m_SizeDelta: {x: 750.8462, y: 50}
+  m_SizeDelta: {x: 2000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1334309860
 MonoBehaviour:
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DUCK Win!
+  m_text: player 1 Win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09a4e2a243bfc224e961302c418d6edb, type: 2}
   m_sharedMaterial: {fileID: -2545644249459878784, guid: 09a4e2a243bfc224e961302c418d6edb,

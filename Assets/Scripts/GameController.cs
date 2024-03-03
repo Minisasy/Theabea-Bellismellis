@@ -14,10 +14,6 @@ public class GameController : MonoBehaviour
     [SerializeField] TextMeshProUGUI redTotalScoreText = null;
     [SerializeField] TextMeshProUGUI blueTotalScoreText = null;
 
-    //Character
-    public int controllerSelected;
-    public int keyboardSelected;
-
     private void Awake()
     {
         int numGameSessions = FindObjectsOfType<GameController>().Length;
@@ -38,7 +34,7 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 4 || SceneManager.GetActiveScene().buildIndex == 6 || SceneManager.GetActiveScene().buildIndex == 8)
+        if (SceneManager.GetActiveScene().buildIndex == 6 || SceneManager.GetActiveScene().buildIndex == 8 || SceneManager.GetActiveScene().buildIndex == 10)
         {
             line.SetActive(true);
         }
@@ -46,7 +42,7 @@ public class GameController : MonoBehaviour
         {
             line.SetActive(false);
         }
-        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 4)
         {
             redTotalScoreText.gameObject.SetActive(false);
             blueTotalScoreText.gameObject.SetActive(false);
@@ -65,12 +61,12 @@ public class GameController : MonoBehaviour
     {
         if (redTotalScore == 2)
         {
-            SceneManager.LoadScene(9);
+            SceneManager.LoadScene(911);
             Destroy(gameObject);
         }
         if (blueTotalScore == 2)
         {
-            SceneManager.LoadScene(10);
+            SceneManager.LoadScene(12);
             Destroy(gameObject);
         }
     }
@@ -88,14 +84,5 @@ public class GameController : MonoBehaviour
     public void ResetGameSession()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void SaveControllerSelection(int selectecChar)
-    {
-        controllerSelected = selectecChar;
-    }
-    public void SaveKeyboardSelection(int selectedChar)
-    {
-        keyboardSelected = selectedChar;
     }
 }

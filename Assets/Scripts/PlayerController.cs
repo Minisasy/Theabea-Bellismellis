@@ -25,8 +25,6 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private BoxCollider boxColl;
 
-    private CharacterSelection characterSelection;
-
     private void Awake()
     {
         rb = this.GetComponent<Rigidbody>();
@@ -40,9 +38,6 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        characterSelection = this.GetComponent<CharacterSelection>();
-
-        characterSelection.StartGameChar();
     }
 
     private void OnEnable()

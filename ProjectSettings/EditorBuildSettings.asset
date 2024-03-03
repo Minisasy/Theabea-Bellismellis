@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: ac009a9bcf5afa447beea53ef151db20
   - enabled: 1
+    path: Assets/Scenes/ControllerCharacterSelect.unity
+    guid: 50f49e4ab79de9e4a9a041e2330b9c01
+  - enabled: 1
+    path: Assets/Scenes/KeyboardCharacterSelect.unity
+    guid: 5e1cac168eda2b341b9096853060193b
+  - enabled: 1
     path: Assets/Scenes/FootballStart.unity
     guid: 2a3d7ae2a337cd94d888295f50c68354
   - enabled: 1

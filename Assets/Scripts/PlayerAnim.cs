@@ -8,22 +8,13 @@ public class PlayerAnim : MonoBehaviour
     private Rigidbody rb;
     private float maxSpeed = 5f;
 
+    private CharacterSelection characterSelection;
+
     private void Start()
     {
         animator = this.GetComponent<Animator>();
         rb = this.GetComponent<Rigidbody>();
-    }
-    private void Update()
-    {
-        animator.SetFloat("Speed", rb.velocity.magnitude / maxSpeed);
 
-        if (animator.GetFloat("Speed") > 0)
-        {
-            //run audio
-        }
-        else
-        {
-            
-        }
+        this.GetComponent<CharacterSelection>().StartGameChar();
     }
 }

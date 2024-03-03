@@ -8,23 +8,27 @@ public class CharacterSelection : MonoBehaviour
     private int currentChar = 0;
 
     [SerializeField] bool controller;
+    [SerializeField] ScriptableVariableSave variableSave;
 
+    [Header("Duck")]
     [SerializeField] GameObject duck1;
     [SerializeField] GameObject duck2;
     [SerializeField] GameObject duck3;
     [SerializeField] GameObject duck4;
 
+    [Header("Bear")]
     [SerializeField] GameObject bear1;
     [SerializeField] GameObject bear2;
     [SerializeField] GameObject bear3;
     [SerializeField] GameObject bear4;
 
+    [Header("Dog")]
     [SerializeField] GameObject dog1;
     [SerializeField] GameObject dog2;
     [SerializeField] GameObject dog3;
     [SerializeField] GameObject dog4;
 
-    public void SelectChar(int index)
+    private void SelectChar(int index)
     {
         if (index == 0)
         {
@@ -100,12 +104,12 @@ public class CharacterSelection : MonoBehaviour
     {
         if (controller == true)
         {
-            FindObjectOfType<GameController>().SaveControllerSelection(currentChar);
+            variableSave.controllerSelected = currentChar;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else if (controller == false)
         {
-            FindObjectOfType<GameController>().SaveKeyboardSelection(currentChar);
+            variableSave.keyboardSelected = currentChar;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
@@ -114,13 +118,13 @@ public class CharacterSelection : MonoBehaviour
     {
         if (controller == true)
         {
-            int charSelect = FindObjectOfType<GameController>().controllerSelected;
-            SelectChar(charSelect);
+            //int charSelect = FindObjectOfType<GameController>().controllerSelected;
+            SelectChar(variableSave.controllerSelected);
         }
         if(controller == false)
         {
-            int charSelect = FindObjectOfType<GameController>().keyboardSelected;
-            SelectChar(charSelect);
+            //int charSelect = FindObjectOfType<GameController>().keyboardSelected;
+            SelectChar(variableSave.keyboardSelected);
         }
     }
 }
