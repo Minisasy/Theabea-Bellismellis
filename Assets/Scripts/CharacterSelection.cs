@@ -86,6 +86,7 @@ public class CharacterSelection : MonoBehaviour
 
     public void ChangeCharacter(int change)
     {
+        FindObjectOfType<AudioManager>().Play("ButtonSound");
         currentChar += change;
         if (currentChar < 0)
         {
@@ -104,11 +105,13 @@ public class CharacterSelection : MonoBehaviour
     {
         if (controller == true)
         {
+            FindObjectOfType<AudioManager>().Play("ButtonSound");
             variableSave.controllerSelected = currentChar;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else if (controller == false)
         {
+            FindObjectOfType<AudioManager>().Play("ButtonSound");
             variableSave.keyboardSelected = currentChar;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
