@@ -37,6 +37,7 @@ public class AudioManager : MonoBehaviour
     public void Start()
     {
         Play("Theme");
+        Screen.SetResolution(1920, 1080, true);
     }
 
     public void Play(string name)
