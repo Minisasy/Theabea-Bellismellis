@@ -931,9 +931,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5903757203272398737}
-  m_LocalRotation: {x: -0.000000029802262, y: 0.00000004936009, z: -0.00000003050081,
+  m_LocalRotation: {x: -0.0000000372529, y: -0.00000008940696, z: 0.000000029802319,
     w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.00000015062005, y: -0.0000009966357, z: -0.0000016192623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1264,8 +1264,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5903757203627533879}
-  m_LocalRotation: {x: 0.018135503, y: 0.00000004132744, z: -0.00000002651359, w: 0.9998356}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.018135477, y: -0.00000017881389, z: 0.00000010430811, w: 0.99983555}
+  m_LocalPosition: {x: 0.00000015062005, y: -0.0000009966357, z: -0.0000016192623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1346,8 +1346,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5903757204328179483}
-  m_LocalRotation: {x: -0.0004307482, y: 0.96218884, z: -0.2723788, w: -0.0015216351}
-  m_LocalPosition: {x: 0.018976592, y: 4, z: 5.99997}
+  m_LocalRotation: {x: 0.18484007, y: 0.7067246, z: -0.20006134, w: 0.6529549}
+  m_LocalPosition: {x: -5.9812636, y: 4, z: 0.4738078}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1738,9 +1738,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5903757204699381171}
-  m_LocalRotation: {x: -0.018195437, y: 0.000000013271347, z: -0.000000007945346,
-    w: 0.9998345}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.018195419, y: -0.000000059604638, z: 0.000000029802319,
+    w: 0.99983454}
+  m_LocalPosition: {x: 0.00000015062005, y: -0.0000009966357, z: -0.0000016192623}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2503,7 +2503,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.39215687, g: 0.7058824, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -2511,7 +2511,7 @@ TrailRenderer:
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
+      ctime0: 65342
       ctime1: 65535
       ctime2: 0
       ctime3: 0
