@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class StarCollectionCanvas : MonoBehaviour
 {
-    int points = 1;
+    /*int points = 1;
     float time = 1.5f;
 
     private int redStarScore;
@@ -63,4 +63,5 @@ public class StarCollectionCanvas : MonoBehaviour
         yield return new WaitForSecondsRealtime(time);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    */
 }

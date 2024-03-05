@@ -7,19 +7,39 @@ using UnityEngine.SceneManagement;
 
 public class StarCollection : MonoBehaviour
 {
-    private int Star = 0;
 
-    public TextMeshProUGUI starText;
+
+    private int starRed = 0;
+    private int starBlue = 0;
+
+
+    [SerializeField] TextMeshProUGUI redStarScoreText = null;
+    [SerializeField] TextMeshProUGUI blueStarScoreText = null;
+
+    private void Start()
+    {
+        redStarScoreText.text = starRed.ToString();
+        blueStarScoreText.text = starBlue.ToString();
+    }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.transform.tag == "Star")
-        {
-            Star++;
-            starText.text = "Stars: " + Star.ToString();
-            Debug.Log(Star);
-            Destroy(other.gameObject);
-        }
+        
+            if (other.tag == "Blue")
+            {
+              
+                starBlue++;
+               // blueStarScoreText.text = "Stars: " + starBlue.ToString();
+                Destroy(other.gameObject);
+            }
+            if (other.tag == "Red")
+            {
+                starRed++;
+                //redStarScoreText.text = "Stars: " + starRed.ToString();
+                Destroy(other.gameObject);
+            }
+        
     }
+  
 }
