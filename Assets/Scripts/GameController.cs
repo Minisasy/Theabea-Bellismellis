@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
     {
         if (redTotalScore == 2)
         {
-            SceneManager.LoadScene(911);
+            SceneManager.LoadScene(12);
             Destroy(gameObject);
         }
         if (blueTotalScore == 2)
