@@ -53,6 +53,15 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Sprint"",
+                    ""type"": ""Button"",
+                    ""id"": ""e94f5c55-ced5-4314-9319-cc4085eb7826"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -88,6 +97,17 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                     ""action"": ""Look"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""62844245-5521-4972-9ad6-64b28f81ae2b"",
+                    ""path"": ""<Gamepad>/leftStickPress"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Sprint"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -118,6 +138,15 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                     ""type"": ""PassThrough"",
                     ""id"": ""7ef5bea6-becd-48b3-867d-086125e31baf"",
                     ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Sprint"",
+                    ""type"": ""Button"",
+                    ""id"": ""116ed9d1-0535-4f3c-aa50-d5702afd835f"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -200,6 +229,17 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                     ""action"": ""Look"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ef02ffcf-389a-4f47-8290-989589c9a9cf"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Sprint"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -211,11 +251,13 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
         m_Controller_Move = m_Controller.FindAction("Move", throwIfNotFound: true);
         m_Controller_Jump = m_Controller.FindAction("Jump", throwIfNotFound: true);
         m_Controller_Look = m_Controller.FindAction("Look", throwIfNotFound: true);
+        m_Controller_Sprint = m_Controller.FindAction("Sprint", throwIfNotFound: true);
         // Keyboard
         m_Keyboard = asset.FindActionMap("Keyboard", throwIfNotFound: true);
         m_Keyboard_Move = m_Keyboard.FindAction("Move", throwIfNotFound: true);
         m_Keyboard_Jump = m_Keyboard.FindAction("Jump", throwIfNotFound: true);
         m_Keyboard_Look = m_Keyboard.FindAction("Look", throwIfNotFound: true);
+        m_Keyboard_Sprint = m_Keyboard.FindAction("Sprint", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -278,6 +320,7 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
     private readonly InputAction m_Controller_Move;
     private readonly InputAction m_Controller_Jump;
     private readonly InputAction m_Controller_Look;
+    private readonly InputAction m_Controller_Sprint;
     public struct ControllerActions
     {
         private @ThirdPersonActionsAsset m_Wrapper;
@@ -285,6 +328,7 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
         public InputAction @Move => m_Wrapper.m_Controller_Move;
         public InputAction @Jump => m_Wrapper.m_Controller_Jump;
         public InputAction @Look => m_Wrapper.m_Controller_Look;
+        public InputAction @Sprint => m_Wrapper.m_Controller_Sprint;
         public InputActionMap Get() { return m_Wrapper.m_Controller; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -303,6 +347,9 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                 @Look.started -= m_Wrapper.m_ControllerActionsCallbackInterface.OnLook;
                 @Look.performed -= m_Wrapper.m_ControllerActionsCallbackInterface.OnLook;
                 @Look.canceled -= m_Wrapper.m_ControllerActionsCallbackInterface.OnLook;
+                @Sprint.started -= m_Wrapper.m_ControllerActionsCallbackInterface.OnSprint;
+                @Sprint.performed -= m_Wrapper.m_ControllerActionsCallbackInterface.OnSprint;
+                @Sprint.canceled -= m_Wrapper.m_ControllerActionsCallbackInterface.OnSprint;
             }
             m_Wrapper.m_ControllerActionsCallbackInterface = instance;
             if (instance != null)
@@ -316,6 +363,9 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
+                @Sprint.started += instance.OnSprint;
+                @Sprint.performed += instance.OnSprint;
+                @Sprint.canceled += instance.OnSprint;
             }
         }
     }
@@ -327,6 +377,7 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
     private readonly InputAction m_Keyboard_Move;
     private readonly InputAction m_Keyboard_Jump;
     private readonly InputAction m_Keyboard_Look;
+    private readonly InputAction m_Keyboard_Sprint;
     public struct KeyboardActions
     {
         private @ThirdPersonActionsAsset m_Wrapper;
@@ -334,6 +385,7 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
         public InputAction @Move => m_Wrapper.m_Keyboard_Move;
         public InputAction @Jump => m_Wrapper.m_Keyboard_Jump;
         public InputAction @Look => m_Wrapper.m_Keyboard_Look;
+        public InputAction @Sprint => m_Wrapper.m_Keyboard_Sprint;
         public InputActionMap Get() { return m_Wrapper.m_Keyboard; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -352,6 +404,9 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                 @Look.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnLook;
                 @Look.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnLook;
                 @Look.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnLook;
+                @Sprint.started -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSprint;
+                @Sprint.performed -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSprint;
+                @Sprint.canceled -= m_Wrapper.m_KeyboardActionsCallbackInterface.OnSprint;
             }
             m_Wrapper.m_KeyboardActionsCallbackInterface = instance;
             if (instance != null)
@@ -365,6 +420,9 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
+                @Sprint.started += instance.OnSprint;
+                @Sprint.performed += instance.OnSprint;
+                @Sprint.canceled += instance.OnSprint;
             }
         }
     }
@@ -374,11 +432,13 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
+        void OnSprint(InputAction.CallbackContext context);
     }
     public interface IKeyboardActions
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
+        void OnSprint(InputAction.CallbackContext context);
     }
 }

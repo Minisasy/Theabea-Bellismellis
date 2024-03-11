@@ -16,7 +16,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     [SerializeField] float movementForce = 1f;
     [SerializeField] float jumpForce = 5f;
-    [SerializeField] float maxSpeed = 5f;
+    [SerializeField] float currentSpeed = 5f;
+    [SerializeField] float walkSpeed = 5f;
+    [SerializeField] float sprintSpeed = 8f;
     [SerializeField] GameObject playerObject;
     private bool grounded = false;
     private Vector3 forceDirection = Vector3.zero;
@@ -24,6 +26,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Camera playerCamera;
     private Animator animator;
     private BoxCollider boxColl;
+
+    //Timer
+    bool timerOn = false;
+    float timeLeft;
 
     private void Awake()
     {
@@ -42,19 +48,16 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
-        /*playerActionsAsset.Player.Jump.started += DoJump;
-        move = playerActionsAsset.Player.Move;
-        playerActionsAsset.Player.Enable();*/
         player.FindAction("Jump").started += DoJump;
+        player.FindAction("Sprint").started += DoSprint;
         move = player.FindAction("Move");
         player.Enable();
     }
 
     private void OnDisable()
     {
-        /*playerActionsAsset.Player.Jump.started -= DoJump;
-        playerActionsAsset.Player.Disable();*/
         player.FindAction("Jump").started -= DoJump;
+        player.FindAction("Sprint").started -= DoSprint;
         player.Disable();
     }
 
@@ -75,12 +78,13 @@ public class PlayerController : MonoBehaviour
         //capping velocity
         Vector3 horizontalVelocity = rb.velocity;
         horizontalVelocity.y = 0;
-        if (horizontalVelocity.sqrMagnitude > maxSpeed * maxSpeed)
+        if (horizontalVelocity.sqrMagnitude > currentSpeed * currentSpeed)
         {
-            rb.velocity = horizontalVelocity.normalized * maxSpeed + Vector3.up * rb.velocity.y;
+            rb.velocity = horizontalVelocity.normalized * currentSpeed + Vector3.up * rb.velocity.y;
         }
 
         LookAt();
+        Timer();
     }
 
     private void LookAt()
@@ -112,6 +116,32 @@ public class PlayerController : MonoBehaviour
         return right.normalized;
     }
 
+    private void DoSprint(InputAction.CallbackContext context)
+    {
+        Debug.Log("Sprint started");
+        currentSpeed = sprintSpeed;
+        timeLeft = 5f;
+        timerOn = true;
+    }
+
+    private void Timer()
+    {
+        if (timerOn)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft -= Time.deltaTime;
+            }
+            else
+            {
+                Debug.Log("sprint off");
+                currentSpeed = walkSpeed;
+                timeLeft = 0;
+                timerOn = false;
+            }
+        }
+    }
+
     private void DoJump(InputAction.CallbackContext obj)
     {
         Debug.Log("jump");
@@ -127,7 +157,6 @@ public class PlayerController : MonoBehaviour
         if(other.transform.tag == "Ground")
         {
             grounded = true;
-            Debug.Log("true");
         }
     }
     private void OnTriggerExit(Collider other)
