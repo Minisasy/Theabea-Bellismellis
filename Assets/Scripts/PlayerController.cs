@@ -28,10 +28,10 @@ public class PlayerController : MonoBehaviour
     private BoxCollider boxColl;
 
     //Timer
+    [SerializeField] ScriptableVariableSave variableSave;
+    [SerializeField] bool red = false;
     bool timerOn = false;
-    float timeLeft;
     bool sprintOn = true;
-    float sprintRecharge;
 
     private void Awake()
     {
@@ -88,6 +88,14 @@ public class PlayerController : MonoBehaviour
         LookAt();
         Timer();
         SprintRecharge();
+        if (red == true)
+        {
+            FindObjectOfType<GameController>().StaminaBarRed(sprintOn, timerOn);
+        }
+        if (red == false)
+        {
+            FindObjectOfType<GameController>().StaminaBarBlue(sprintOn, timerOn);
+        }
     }
 
     private void LookAt()
@@ -123,11 +131,22 @@ public class PlayerController : MonoBehaviour
     {
         if (sprintOn == true)
         {
-            Debug.Log("Sprint started");
-            currentSpeed = sprintSpeed;
-            sprintRecharge = 15f;
-            timeLeft = 4f;
-            timerOn = true;
+            if (red == true)
+            {
+                Debug.Log("Sprint started");
+                currentSpeed = sprintSpeed;
+                variableSave.sprintRechargeRed = 0f;
+                variableSave.timeLeftRed = 4f;
+                timerOn = true;
+            }
+            if (red == false)
+            {
+                Debug.Log("Sprint started");
+                currentSpeed = sprintSpeed;
+                variableSave.sprintRechargeBlue = 0f;
+                variableSave.timeLeftBlue = 4f;
+                timerOn = true;
+            }
         }
     }
 
@@ -135,17 +154,35 @@ public class PlayerController : MonoBehaviour
     {
         if (timerOn)
         {
-            if (timeLeft > 0)
+            if (red == true)
             {
-                timeLeft -= Time.deltaTime;
+                if (variableSave.timeLeftRed > 0)
+                {
+                    variableSave.timeLeftRed -= Time.deltaTime;
+                }
+                else
+                {
+                    Debug.Log("sprint off");
+                    currentSpeed = walkSpeed;
+                    sprintOn = false;
+                    variableSave.timeLeftRed = 0;
+                    timerOn = false;
+                }
             }
-            else
+            if (red== false)
             {
-                Debug.Log("sprint off");
-                currentSpeed = walkSpeed;
-                sprintOn = false;
-                timeLeft = 0;
-                timerOn = false;
+                if (variableSave.timeLeftBlue > 0)
+                {
+                    variableSave.timeLeftBlue -= Time.deltaTime;
+                }
+                else
+                {
+                    Debug.Log("sprint off");
+                    currentSpeed = walkSpeed;
+                    sprintOn = false;
+                    variableSave.timeLeftBlue = 0;
+                    timerOn = false;
+                }
             }
         }
     }
@@ -153,14 +190,29 @@ public class PlayerController : MonoBehaviour
     {
         if (!sprintOn)
         {
-            if(sprintRecharge > 0)
+            if (red == true)
             {
-                sprintRecharge -= Time.deltaTime;
+                if (variableSave.sprintRechargeRed < 15f)
+                {
+                    variableSave.sprintRechargeRed += Time.deltaTime;
+                }
+                else
+                {
+                    sprintOn = true;
+                    variableSave.timeLeftRed = 15f;
+                }
             }
-            else
+            if (red == false)
             {
-                sprintOn = true;
-                timeLeft = 0;
+                if (variableSave.sprintRechargeBlue < 15f)
+                {
+                    variableSave.sprintRechargeBlue += Time.deltaTime;
+                }
+                else
+                {
+                    sprintOn = true;
+                    variableSave.timeLeftBlue = 15f;
+                }
             }
         }
     }

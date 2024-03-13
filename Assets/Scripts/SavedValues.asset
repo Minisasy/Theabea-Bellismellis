@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerSelected: 1
   keyboardSelected: 2
+  timeLeftRed: 0
+  sprintRechargeRed: 1.719999
+  timeLeftBlue: 0
+  sprintRechargeBlue: 8.500005

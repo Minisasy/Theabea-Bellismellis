@@ -101,7 +101,7 @@ public partial class @ThirdPersonActionsAsset : IInputActionCollection2, IDispos
                 {
                     ""name"": """",
                     ""id"": ""62844245-5521-4972-9ad6-64b28f81ae2b"",
-                    ""path"": ""<Gamepad>/leftStickPress"",
+                    ""path"": ""<Gamepad>/buttonEast"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
