@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
     //Timer
     bool timerOn = false;
     float timeLeft;
+    bool sprintOn = true;
+    float sprintRecharge;
 
     private void Awake()
     {
@@ -85,6 +87,7 @@ public class PlayerController : MonoBehaviour
 
         LookAt();
         Timer();
+        SprintRecharge();
     }
 
     private void LookAt()
@@ -118,10 +121,14 @@ public class PlayerController : MonoBehaviour
 
     private void DoSprint(InputAction.CallbackContext context)
     {
-        Debug.Log("Sprint started");
-        currentSpeed = sprintSpeed;
-        timeLeft = 5f;
-        timerOn = true;
+        if (sprintOn == true)
+        {
+            Debug.Log("Sprint started");
+            currentSpeed = sprintSpeed;
+            sprintRecharge = 15f;
+            timeLeft = 4f;
+            timerOn = true;
+        }
     }
 
     private void Timer()
@@ -136,8 +143,24 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.Log("sprint off");
                 currentSpeed = walkSpeed;
+                sprintOn = false;
                 timeLeft = 0;
                 timerOn = false;
+            }
+        }
+    }
+    private void SprintRecharge()
+    {
+        if (!sprintOn)
+        {
+            if(sprintRecharge > 0)
+            {
+                sprintRecharge -= Time.deltaTime;
+            }
+            else
+            {
+                sprintOn = true;
+                timeLeft = 0;
             }
         }
     }
