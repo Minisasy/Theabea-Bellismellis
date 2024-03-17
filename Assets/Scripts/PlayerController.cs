@@ -224,6 +224,7 @@ public class PlayerController : MonoBehaviour
         {
             forceDirection += Vector3.up * jumpForce;
             animator.SetTrigger("Jump");
+            FindObjectOfType<AudioManager>().Play("Jump");
         }
     }
 

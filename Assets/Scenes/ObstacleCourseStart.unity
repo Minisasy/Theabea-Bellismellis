@@ -11791,6 +11791,26 @@ PrefabInstance:
       propertyPath: football
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1703152812525533021, guid: 376e019584391e9498d214b2702e85fa,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703152812525533021, guid: 376e019584391e9498d214b2702e85fa,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4141698470317890652, guid: 376e019584391e9498d214b2702e85fa,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4141698470317890652, guid: 376e019584391e9498d214b2702e85fa,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 376e019584391e9498d214b2702e85fa, type: 3}
 --- !u!1001 &1493519224
@@ -16062,7 +16082,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956591255}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
