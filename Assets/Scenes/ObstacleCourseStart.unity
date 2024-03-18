@@ -16114,7 +16114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '-Gamemode-
+  m_text: '-GAMEMODE-
 
     Race'
   m_isRightToLeft: 0
