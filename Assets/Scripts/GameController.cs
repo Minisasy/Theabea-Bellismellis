@@ -71,12 +71,12 @@ public class GameController : MonoBehaviour
     {
         if (redTotalScore == 2)
         {
-            SceneManager.LoadScene(13);
+            SceneManager.LoadScene(12);
             Destroy(gameObject);
         }
         if (blueTotalScore == 2)
         {
-            SceneManager.LoadScene(14);
+            SceneManager.LoadScene(13);
             Destroy(gameObject);
         }
     }
