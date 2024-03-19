@@ -779,7 +779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Shift / L Stick Press - Activate Sprint
+  m_text: Shift / B - Activate Sprint
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09a4e2a243bfc224e961302c418d6edb, type: 2}
   m_sharedMaterial: {fileID: -2545644249459878784, guid: 09a4e2a243bfc224e961302c418d6edb,
