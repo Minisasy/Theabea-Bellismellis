@@ -82,6 +82,10 @@ public class PlayerController : MonoBehaviour
         horizontalVelocity.y = 0;
         if (horizontalVelocity.sqrMagnitude > currentSpeed * currentSpeed)
         {
+            if (FindObjectOfType<Tutorial>() != null)
+            {
+                FindObjectOfType<Tutorial>().Walked(red);
+            }
             rb.velocity = horizontalVelocity.normalized * currentSpeed + Vector3.up * rb.velocity.y;
         }
 
@@ -131,6 +135,10 @@ public class PlayerController : MonoBehaviour
     {
         if (sprintOn == true)
         {
+            if (FindObjectOfType<Tutorial>() != null)
+            {
+                FindObjectOfType<Tutorial>().Sprinted(red);
+            }
             if (red == true)
             {
                 Debug.Log("Sprint started");
@@ -222,6 +230,10 @@ public class PlayerController : MonoBehaviour
         Debug.Log("jump");
         if (grounded == true)
         {
+            if (FindObjectOfType<Tutorial>() != null)
+            {
+                FindObjectOfType<Tutorial>().Jumped(red);
+            }
             forceDirection += Vector3.up * jumpForce;
             animator.SetTrigger("Jump");
             FindObjectOfType<AudioManager>().Play("Jump");

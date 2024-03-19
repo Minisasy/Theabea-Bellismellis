@@ -40,7 +40,7 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 6 || SceneManager.GetActiveScene().buildIndex == 8 || SceneManager.GetActiveScene().buildIndex == 10)
+        if (SceneManager.GetActiveScene().buildIndex == 5 || SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 9 || SceneManager.GetActiveScene().buildIndex == 11)
         {
             line.SetActive(true);
             sliderRed.gameObject.SetActive(true);
@@ -52,7 +52,7 @@ public class GameController : MonoBehaviour
             sliderRed.gameObject.SetActive(false);
             sliderBlue.gameObject.SetActive(false);
         }
-        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 4 || SceneManager.GetActiveScene().buildIndex == 5)
         {
             redTotalScoreText.gameObject.SetActive(false);
             blueTotalScoreText.gameObject.SetActive(false);
@@ -71,12 +71,12 @@ public class GameController : MonoBehaviour
     {
         if (redTotalScore == 2)
         {
-            SceneManager.LoadScene(12);
+            SceneManager.LoadScene(13);
             Destroy(gameObject);
         }
         if (blueTotalScore == 2)
         {
-            SceneManager.LoadScene(12);
+            SceneManager.LoadScene(14);
             Destroy(gameObject);
         }
     }
