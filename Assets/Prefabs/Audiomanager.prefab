@@ -65,6 +65,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Score
     clip: {fileID: 8300000, guid: 03cff3c3a25df4440830a5bb4f9c1077, type: 3}
+    volume: 0.47
+    pitch: 0.9
+    Loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: eba3df928afdeaf48a7b27648b8f1929, type: 3}
     volume: 0.266
     pitch: 0.9
     Loop: 0

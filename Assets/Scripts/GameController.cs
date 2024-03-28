@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -13,6 +14,11 @@ public class GameController : MonoBehaviour
     private int blueTotalScore;
     [SerializeField] TextMeshProUGUI redTotalScoreText = null;
     [SerializeField] TextMeshProUGUI blueTotalScoreText = null;
+
+    //Stamina bar
+    [SerializeField] ScriptableVariableSave variableSave;
+    [SerializeField] Slider sliderRed;
+    [SerializeField] Slider sliderBlue;
 
     private void Awake()
     {
@@ -34,15 +40,19 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 6 || SceneManager.GetActiveScene().buildIndex == 8 || SceneManager.GetActiveScene().buildIndex == 10)
+        if (SceneManager.GetActiveScene().buildIndex == 5 || SceneManager.GetActiveScene().buildIndex == 7 || SceneManager.GetActiveScene().buildIndex == 9 || SceneManager.GetActiveScene().buildIndex == 11)
         {
             line.SetActive(true);
+            sliderRed.gameObject.SetActive(true);
+            sliderBlue.gameObject.SetActive(true);
         }
         else
         {
             line.SetActive(false);
+            sliderRed.gameObject.SetActive(false);
+            sliderBlue.gameObject.SetActive(false);
         }
-        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 2 || SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 4 || SceneManager.GetActiveScene().buildIndex == 5)
         {
             redTotalScoreText.gameObject.SetActive(false);
             blueTotalScoreText.gameObject.SetActive(false);
@@ -61,12 +71,12 @@ public class GameController : MonoBehaviour
     {
         if (redTotalScore == 2)
         {
-            SceneManager.LoadScene(911);
+            SceneManager.LoadScene(12);
             Destroy(gameObject);
         }
         if (blueTotalScore == 2)
         {
-            SceneManager.LoadScene(12);
+            SceneManager.LoadScene(13);
             Destroy(gameObject);
         }
     }
@@ -84,5 +94,50 @@ public class GameController : MonoBehaviour
     public void ResetGameSession()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void StaminaBarRed(bool sprintOn, bool timerOn)
+    {
+        if (sprintOn == true && timerOn == false)
+        {
+            sliderRed.maxValue = 4f;
+            sliderRed.value = 4f;
+        }
+        if(sprintOn == false && timerOn == true)
+        {
+            sliderRed.maxValue = 14f;
+            sliderRed.value = 0f;
+        }
+        if(sprintOn == true && timerOn == true)
+        {
+            sliderRed.value = variableSave.timeLeftRed;
+        }
+        if(sprintOn == false && timerOn == false)
+        {
+            sliderRed.maxValue = 15f;
+            sliderRed.value = variableSave.sprintRechargeRed;
+        }
+    }
+    public void StaminaBarBlue(bool sprintOn, bool timerOn)
+    {
+        if (sprintOn == true && timerOn == false)
+        {
+            sliderBlue.maxValue = 4f;
+            sliderBlue.value = 4f;
+        }
+        if (sprintOn == false && timerOn == true)
+        {
+            sliderBlue.maxValue = 14f;
+            sliderBlue.value = 0f;
+        }
+        if (sprintOn == true && timerOn == true)
+        {
+            sliderBlue.value = variableSave.timeLeftBlue;
+        }
+        if (sprintOn == false && timerOn == false)
+        {
+            sliderBlue.maxValue = 15f;
+            sliderBlue.value = variableSave.sprintRechargeBlue;
+        }
     }
 }

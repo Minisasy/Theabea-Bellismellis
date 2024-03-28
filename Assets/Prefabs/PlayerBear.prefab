@@ -488,8 +488,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826121664183980}
-  m_LocalRotation: {x: -0.018195456, y: 0.000000037252903, z: 0.000000011175871, w: 0.99983454}
-  m_LocalPosition: {x: 0.0000006702401, y: -0.0000006134627, z: -0.0000009967104}
+  m_LocalRotation: {x: -0.018195378, y: -0.000000037252903, z: -0.000000011175871,
+    w: 0.99983454}
+  m_LocalPosition: {x: 0.0000006761847, y: -0.0000006116677, z: -0.0000009937942}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -571,8 +572,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826122169590788}
-  m_LocalRotation: {x: 0.036027104, y: 0.9537361, z: -0.26998597, w: 0.12726715}
-  m_LocalPosition: {x: -1.5732744, y: 4, z: 5.790062}
+  m_LocalRotation: {x: 0.03534039, y: 0.9540568, z: -0.27007672, w: 0.12484127}
+  m_LocalPosition: {x: -1.543803, y: 4, z: 5.797989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -765,7 +766,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 200
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
@@ -1098,9 +1099,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826122738115880}
-  m_LocalRotation: {x: 0.018135484, y: 0.0000000074505797, z: -0.000000052154057,
-    w: 0.9998356}
-  m_LocalPosition: {x: 0.0000013404803, y: -0.0000012269254, z: -0.0000019934207}
+  m_LocalRotation: {x: 0.018135548, y: -0, z: -0.000000037252903, w: 0.9998356}
+  m_LocalPosition: {x: 0.0000013523694, y: -0.0000012233354, z: -0.0000019875883}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1202,7 +1202,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826123023402754}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: dd8f6a626bf12f34494082ff20fd451f, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5000001
@@ -1240,9 +1240,13 @@ MonoBehaviour:
   actionMapName: Keyboard
   movementForce: 1
   jumpForce: 8
-  maxSpeed: 5
+  currentSpeed: 5
+  walkSpeed: 5
+  sprintSpeed: 8
   playerObject: {fileID: 0}
   playerCamera: {fileID: 2347826122169590794}
+  variableSave: {fileID: 11400000, guid: 15c815bbd8c7da04fa40da185adb5696, type: 2}
+  red: 1
 --- !u!114 &4183048975561352294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1382,9 +1386,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2347826123261031566}
-  m_LocalRotation: {x: -0.000000033061944, y: 0.000000081956365, z: -0.00000007450579,
-    w: 1}
-  m_LocalPosition: {x: 0.0000006702401, y: -0.0000006134627, z: -0.0000009967104}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0000006761847, y: -0.0000006116677, z: -0.0000009937942}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

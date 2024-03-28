@@ -40,14 +40,12 @@ public class TriggerWin : MonoBehaviour
                 psBlue.Play();
                 FindObjectOfType<GameController>().BlueTotalScore(point);
                 point = 0;
-                StartCoroutine(ChangeScenes());
             }
             if (other.tag == "Red" && this.gameObject.tag != "Death")
             {
                 psRed.Play();
                 FindObjectOfType<GameController>().RedTotalScore(point);
                 point = 0;
-                StartCoroutine(ChangeScenes());
 
             }
         }
